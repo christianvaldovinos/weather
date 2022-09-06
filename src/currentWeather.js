@@ -12,7 +12,6 @@ const CurrentWeather = ({data, pinned, subbedLocations, onDelete, onPinLocation,
         <div className="weather"
              onClick={() => onSelectLocation(data)}
         >
-            <img id="cityImage" src={cityImage}/>
             <div id="weather-info">
                 <div id="topLeftDiv">
                     <p id="city">{data.city}</p>
