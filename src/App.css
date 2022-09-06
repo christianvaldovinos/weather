@@ -1,0 +1,9 @@
+.container {
+  max-width: 100%;
+  margin: 20px auto;
+}
+
+.allLocations {
+  display: flex;
+  flex-wrap: wrap;
+}

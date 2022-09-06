@@ -1,0 +1,98 @@
+.weather {
+    width: 275px;
+    border-radius: 6px;
+    box-shadow: 10px -2px 20px 2px rgb( 0 0 0 / 30%);
+    color: white;
+    background-color: dimgray;
+    margin: 20px auto 0 auto;
+    padding: 0 20px 20px 20px;
+}
+
+#weather-info {
+    display: grid;
+    align-items: center;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: auto 100px;
+}
+
+#topLeftDiv {
+    grid-row: 2;
+    grid-column: 1;
+}
+
+#city {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1;
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+#weather-description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+#weather-icon {
+    width: 100px;
+    grid-column: 2;
+    grid-row: 2;
+    margin-right: 0;
+}
+
+#temperature {
+    font-weight: 600;
+    font-size: 60px;
+    width: auto;
+    letter-spacing: 0;
+    margin: 10px 0;
+    grid-row: 3;
+    grid-column: 1;
+}
+
+#details {
+    width: 100%;
+    grid-row: 3;
+    grid-column: 2;
+}
+
+.parameter-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.parameter-label {
+    text-align: left;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.parameter-value {
+    text-align: right;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+#bottomButtons {
+    grid-row: 4;
+    grid-column: 1 / span 2;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bottomIcons:hover {
+    cursor: pointer;
+}
+
+#starButton {
+    font-size: 25px;
+}
