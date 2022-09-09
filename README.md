@@ -30,7 +30,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-Video of App
+[//]: # (Video of App)
 
 This weather app allows you to search for cities and uses the [GEODB Cities](https://rapidapi.com/wirefreethought/api/geodb-cities) and [OpenWeather](https://openweathermap.org/api) APIs to present you the current weather in this city. This app is currently configured to include US Cities with a population of 100,000+ and can display up to 10 cities at a time.
 
@@ -83,11 +83,11 @@ This weather app allows you to search for cities and uses the [GEODB Cities](htt
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Screenshot of one city's box
+![CityImage](public/CityImage.png)
 
 Under each city you add, the following details are presented: The city's name, a description of the weather accompanied by a matching photo for that description, the temperature, what the weather feels like, the wind, and the humidity.
 
-Screenshot of various cities
+![VariousCitiesImage](public/VariousCitiesImage.png)
 
 There are three icons along the bottom of each box: a star, an envelope, and a trashcan. Clicking on the star marks this city as a "favorite" and all of your favorited cities will be displayed ahead of the others. This allows users to see their most relevant cities first. The trashcan icon deletes the city so users can freely edit their displayed cities. The envelope icon is still in progress but will prompt users to enter their email (or possibly sign in) and will subscribe users to receive notification when the weather reaches extreme temperatures.
 

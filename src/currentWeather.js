@@ -1,7 +1,7 @@
 import "./currentWeather.css";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faEnvelopeCircleCheck, faStar as solidStar } from '@fortawesome/free-solid-svg-icons';
-import {faEnvelope, faTrashCan, faStar as hollowStar} from '@fortawesome/free-regular-svg-icons';
+import { faEnvelope, faTrashCan, faStar as hollowStar } from '@fortawesome/free-regular-svg-icons';
 
 const CurrentWeather = ({data, pinned, subbedLocations, onDelete, onPinLocation, onSelectLocation, onSubMailList}) => {
 
