@@ -97,7 +97,7 @@ There are three icons along the bottom of each box: a star, an envelope, and a t
 <!-- CONTACT -->
 ## Contact
 
-Christian Valdovinos - cvaldovinos@hmc.edu
+Christian Valdovinos - christianvaldovinos01@gmail.com
 
 [Live App](https://christianvaldovinos.com/weather)
 
