@@ -39,7 +39,7 @@ This weather app allows you to search for cities and uses the [GEODB Cities](htt
 
 
 ### Built With
-* [![Node][Node.js]][Node-url]
+[//]: # (* [![Node][Node.js]][Node-url])
 * [![React][React.js]][React-url]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
