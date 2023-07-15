@@ -61,7 +61,7 @@ This weather app allows you to search for cities and uses the [GEODB Cities](htt
 1. Get free API Keys at [GeoDB Cities](https://rapidapi.com/wirefreethought/api/geodb-cities/) and [Weather API](https://openweathermap.org/api)
 2. Clone the repo
    ```sh
-   git clone https://github.com/cvaldovinos/cs124-lab2.git
+   git clone https://github.com/cvaldovinos/weather.git
    ```
 3. Install NPM packages
    ```sh
